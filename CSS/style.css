@@ -40,7 +40,7 @@ body {
     font-weight: 400;
 }
 .header__nav-link:hover, .header__nav-link:focus {
-    color: red;
+    color: #F38181;
 
 }
 
