@@ -11,8 +11,17 @@ body {
     font-family: "Monserrat", sanr-serif;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* header */
-.header {
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header__logo {
     color: var(--logo-color);
@@ -29,6 +38,10 @@ body {
     color: var(--logo-color);
     font-size: 14px;
     font-weight: 400;
+}
+.header__nav-link:hover, .header__nav-link:focus {
+    color: red;
+
 }
 
 .services__text {
