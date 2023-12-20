@@ -15,6 +15,7 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    outline: 1px solid red;
 }
 
 /* header */
@@ -39,11 +40,79 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
-.header__nav-link:hover, .header__nav-link:focus {
+.header__nav-link:hover,
+.header__nav-link:focus {
     color: #F38181;
 
 }
 
+.services{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.services .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .services__text {
     font-family: "Kaushan Script", sans-serif;
+    font-size: 30px;
+    font-variant: all-small-caps;
+}
+
+.works {
+    margin-bottom: 100px;
+}
+.container {
+}
+.works__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.works__item {
+    display: flex;
+    flex-basis: calc((100% - 3 * 60) / 3);
+}
+.works__item svg{
+    margin-right: 20px;
+}
+.works__subtitle {
+    margin-bottom: 20px;
+}
+.works__text {
+}
+.team {
+}
+.team__text {
+}
+.team__title {
+}
+.team__suptext {
+}
+.team-members {
+}
+.team-members__list {
+}
+.team-members__item {
+}
+.team-members__img {
+}
+.team-members__name {
+}
+.team-members__position {
+}
+.footer {
+}
+.footer__text {
+}
+.footer__form {
+}
+.footer__form__label {
+}
+.footer__form__input {
+}
+.footer__form__button {
 }
