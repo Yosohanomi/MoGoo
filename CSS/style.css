@@ -82,6 +82,10 @@ body {
 .works__subtitle {
     margin-bottom: 20px;
 }
+
+.works__item-svg {
+    fill: #95E1D3;
+}
 .works__text {
 }
 .team {
