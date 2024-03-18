@@ -85,6 +85,8 @@ body {
 
 .works__item-svg {
     fill: #95E1D3;
+    width: 37px;
+    height: 37px;
 }
 .works__text {
 }
